@@ -10,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Watched_page;
 using static Final_Eda.Authenticate;
 
 namespace FinalEda
@@ -59,6 +58,8 @@ namespace FinalEda
                         adapter.Fill(ds);
                         dataGridView1.DataSource = ds.Tables.Count > 0 ? ds.Tables[0] : null;
                     }
+                    search_box.Clear();
+                    category.SelectedIndex = -1;
                 }
             }
         }
@@ -144,5 +145,11 @@ namespace FinalEda
 
             }
         }
+
+        private void viewall_btn_Click(object sender, EventArgs e)
+        {
+            Refresh();
+        }
+
     }
 }

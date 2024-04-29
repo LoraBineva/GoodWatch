@@ -42,13 +42,14 @@
             go_watchlist = new Button();
             go_watched = new Button();
             label3 = new Label();
+            viewall_btn = new Button();
             ((System.ComponentModel.ISupportInitialize)search_button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // search_box
             // 
-            search_box.Location = new Point(26, 92);
+            search_box.Location = new Point(26, 81);
             search_box.Name = "search_box";
             search_box.PlaceholderText = "Search...";
             search_box.Size = new Size(194, 23);
@@ -60,7 +61,7 @@
             category.ForeColor = Color.FromArgb(64, 64, 64);
             category.FormattingEnabled = true;
             category.Items.AddRange(new object[] { "Title", "Genre", "Director", "Language" });
-            category.Location = new Point(217, 92);
+            category.Location = new Point(217, 81);
             category.Name = "category";
             category.Size = new Size(92, 23);
             category.TabIndex = 1;
@@ -70,7 +71,7 @@
             // 
             search_button.BackColor = Color.FromArgb(62, 137, 207);
             search_button.BackgroundImage = Final_Eda.Properties.Resources._1965ab7ef7de87fe748b3c66efbfc73a_removebg_preview__1_;
-            search_button.Location = new Point(308, 92);
+            search_button.Location = new Point(308, 81);
             search_button.Name = "search_button";
             search_button.Size = new Size(24, 23);
             search_button.TabIndex = 2;
@@ -93,7 +94,7 @@
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.GridColor = Color.FromArgb(52, 71, 105);
-            dataGridView1.Location = new Point(26, 131);
+            dataGridView1.Location = new Point(26, 120);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(306, 374);
@@ -101,7 +102,7 @@
             // 
             // movieID1
             // 
-            movieID1.Location = new Point(26, 542);
+            movieID1.Location = new Point(26, 563);
             movieID1.Name = "movieID1";
             movieID1.PlaceholderText = "Movie ID...";
             movieID1.Size = new Size(136, 23);
@@ -113,7 +114,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Gadugi", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(26, 524);
+            label1.Location = new Point(26, 545);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
             label1.Size = new Size(136, 16);
@@ -126,7 +127,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Gadugi", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(197, 524);
+            label2.Location = new Point(197, 545);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
             label2.Size = new Size(134, 16);
@@ -135,7 +136,7 @@
             // 
             // movieID2
             // 
-            movieID2.Location = new Point(196, 542);
+            movieID2.Location = new Point(196, 563);
             movieID2.Name = "movieID2";
             movieID2.PlaceholderText = "Movie ID...";
             movieID2.Size = new Size(136, 23);
@@ -147,7 +148,7 @@
             add_watchlist.FlatAppearance.BorderColor = Color.FromArgb(62, 137, 207);
             add_watchlist.FlatStyle = FlatStyle.Flat;
             add_watchlist.ForeColor = SystemColors.ButtonHighlight;
-            add_watchlist.Location = new Point(26, 572);
+            add_watchlist.Location = new Point(26, 593);
             add_watchlist.Name = "add_watchlist";
             add_watchlist.Size = new Size(136, 23);
             add_watchlist.TabIndex = 9;
@@ -161,7 +162,7 @@
             add_watched.FlatAppearance.BorderColor = Color.FromArgb(62, 137, 207);
             add_watched.FlatStyle = FlatStyle.Flat;
             add_watched.ForeColor = SystemColors.ButtonHighlight;
-            add_watched.Location = new Point(196, 571);
+            add_watched.Location = new Point(196, 592);
             add_watched.Name = "add_watched";
             add_watched.Size = new Size(136, 23);
             add_watched.TabIndex = 10;
@@ -211,12 +212,28 @@
             label3.TabIndex = 13;
             label3.Text = "Check Out:";
             // 
+            // viewall_btn
+            // 
+            viewall_btn.BackColor = Color.FromArgb(67, 137, 207);
+            viewall_btn.FlatAppearance.BorderColor = Color.FromArgb(67, 137, 207);
+            viewall_btn.FlatStyle = FlatStyle.Flat;
+            viewall_btn.Font = new Font("Gadugi", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            viewall_btn.ForeColor = SystemColors.ButtonHighlight;
+            viewall_btn.Location = new Point(247, 497);
+            viewall_btn.Name = "viewall_btn";
+            viewall_btn.Size = new Size(84, 25);
+            viewall_btn.TabIndex = 35;
+            viewall_btn.Text = "View All";
+            viewall_btn.UseVisualStyleBackColor = false;
+            viewall_btn.Click += viewall_btn_Click;
+            // 
             // Search
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Final_Eda.Properties.Resources.background_app;
             ClientSize = new Size(357, 776);
+            Controls.Add(viewall_btn);
             Controls.Add(label3);
             Controls.Add(go_watched);
             Controls.Add(go_watchlist);
@@ -256,5 +273,6 @@
         private Button go_watchlist;
         private Button go_watched;
         private Label label3;
+        private Button viewall_btn;
     }
 }
