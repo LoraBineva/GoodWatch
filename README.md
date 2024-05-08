@@ -58,6 +58,7 @@ To view all movies in your Watch List:
 2. You'll see a list of all movies in your Watch List, along with their details.
    
 **Filtering and Sorting**
+
 You can filter and sort the movies in your Watch List based on different criteria.
 - Filter by Genre: Select a genre from the dropdown menu to filter movies by genre.
 - Sort by Title: Choose between sorting movies alphabetically by title in ascending or descending order.
@@ -65,4 +66,25 @@ You can filter and sort the movies in your Watch List based on different criteri
 **Additional Features**
 - Refresh: Click on the "Refresh" button to update the Watch List and apply any changes made.
 - Search: If you're looking to go back, you can use the search button to return to the page.
+
+### Viewing Watched Movies
+
+To view the list of movies you've already watched, navigate to the "Watched List" tab. Here, you'll find a list of movies along with their details.
+**Viewing All Movies**
+
+To view all movies in your Watch List:
+1. Click on the "View All" button.
+2. You'll see a list of all movies in your Watch List, along with their details.
+
+**Filtering and Sorting**
+
+You can filter and sort the movies in your Watch List based on different criteria.
+- Filter by Genre: Select a genre from the dropdown menu to filter movies by genre.
+- Sort by Title: Choose between sorting movies alphabetically by title in ascending or descending order.
+
+**Additional Features**
+- Refresh: Click on the "Refresh" button to update the Watch List and apply any changes made.
+- Search: If you're looking to go back, you can use the search button to return to the page.
+———————————————————————————————-
+## Thank you for choosing GoodWatch for all your movie tracking needs!
 
