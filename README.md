@@ -85,6 +85,6 @@ You can filter and sort the movies in your Watch List based on different criteri
 **Additional Features**
 - Refresh: Click on the "Refresh" button to update the Watch List and apply any changes made.
 - Search: If you're looking to go back, you can use the search button to return to the page.
-———————————————————————————————-
+###    
 ## Thank you for choosing GoodWatch for all your movie tracking needs!
 
