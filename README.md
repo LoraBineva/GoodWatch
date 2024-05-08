@@ -13,6 +13,7 @@ GoodWatch is designed to help you track your movie-watching activities. It provi
 
 ### Navigating the Application
 **Welcome Screen**
+
 When you first launch the application, you'll be greeted with the welcome screen. Here, you have two options:
 - Create Account: Click on the "Create Account" button to register a new account.
 - Log In: Click on the "Log In" button if you already have an account.
