@@ -12,7 +12,7 @@ GoodWatch is designed to help you track your movie-watching activities. It provi
 - Search Functionality: Search for movies by title, genre, or other criteria.
 
 ### Navigating the Application
-<u>**Welcome Screen**<u>
+**Welcome Screen**
 
 When you first launch the application, you'll be greeted with the welcome screen. Here, you have two options:
 - Create Account: Click on the "Create Account" button to register a new account.
